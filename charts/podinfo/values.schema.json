@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "additionalProperties": false,
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "replicaCount": {
       "type": "integer"
@@ -35,13 +36,7 @@
           "type": "array",
           "items": {}
         }
-      },
-      "required": [
-        "repository",
-        "tag",
-        "pullPolicy",
-        "pullSecrets"
-      ]
+      }
     },
     "ui": {
       "type": "object",
@@ -55,12 +50,7 @@
         "logo": {
           "type": "string"
         }
-      },
-      "required": [
-        "color",
-        "message",
-        "logo"
-      ]
+      }
     },
     "faults": {
       "type": "object",
@@ -83,15 +73,7 @@
         "testTimeout": {
           "type": "boolean"
         }
-      },
-      "required": [
-        "delay",
-        "error",
-        "unhealthy",
-        "unready",
-        "testFail",
-        "testTimeout"
-      ]
+      }
     },
     "service": {
       "type": "object",
@@ -126,19 +108,7 @@
         "hostPort": {
           "type": "null"
         }
-      },
-      "required": [
-        "enabled",
-        "annotations",
-        "type",
-        "metricsPort",
-        "httpPort",
-        "externalPort",
-        "grpcPort",
-        "grpcService",
-        "nodePort",
-        "hostPort"
-      ]
+      }
     },
     "h2c": {
       "type": "object",
@@ -146,10 +116,7 @@
         "enabled": {
           "type": "boolean"
         }
-      },
-      "required": [
-        "enabled"
-      ]
+      }
     },
     "config": {
       "type": "object",
@@ -160,11 +127,7 @@
         "name": {
           "type": "string"
         }
-      },
-      "required": [
-        "path",
-        "name"
-      ]
+      }
     },
     "extraArgs": {
       "type": "array",
@@ -192,14 +155,7 @@
         "hostPort": {
           "type": "null"
         }
-      },
-      "required": [
-        "enabled",
-        "secretName",
-        "certPath",
-        "port",
-        "hostPort"
-      ]
+      }
     },
     "certificate": {
       "type": "object",
@@ -216,11 +172,7 @@
             "name": {
               "type": "string"
             }
-          },
-          "required": [
-            "kind",
-            "name"
-          ]
+          }
         },
         "dnsNames": {
           "type": "array",
@@ -230,12 +182,7 @@
             }
           ]
         }
-      },
-      "required": [
-        "create",
-        "issuerRef",
-        "dnsNames"
-      ]
+      }
     },
     "hpa": {
       "type": "object",
@@ -255,14 +202,7 @@
         "requests": {
           "type": "null"
         }
-      },
-      "required": [
-        "enabled",
-        "maxReplicas",
-        "cpu",
-        "memory",
-        "requests"
-      ]
+      }
     },
     "cache": {
       "type": "string"
@@ -283,13 +223,7 @@
           "type": "array",
           "items": {}
         }
-      },
-      "required": [
-        "enabled",
-        "repository",
-        "tag",
-        "imagePullSecrets"
-      ]
+      }
     },
     "serviceAccount": {
       "type": "object",
@@ -304,12 +238,7 @@
           "type": "array",
           "items": {}
         }
-      },
-      "required": [
-        "enabled",
-        "name",
-        "imagePullSecrets"
-      ]
+      }
     },
     "securityContext": {
       "type": "object"
@@ -353,19 +282,11 @@
                         "pathType": {
                           "type": "string"
                         }
-                      },
-                      "required": [
-                        "path",
-                        "pathType"
-                      ]
+                      }
                     }
                   ]
                 }
-              },
-              "required": [
-                "host",
-                "paths"
-              ]
+              }
             }
           ]
         },
@@ -373,15 +294,7 @@
           "type": "array",
           "items": {}
         }
-      },
-      "required": [
-        "enabled",
-        "className",
-        "additionalLabels",
-        "annotations",
-        "hosts",
-        "tls"
-      ]
+      }
     },
     "httpRoute": {
       "type": "object",
@@ -407,11 +320,7 @@
                 "sectionName": {
                   "type": "string"
                 }
-              },
-              "required": [
-                "name",
-                "sectionName"
-              ]
+              }
             }
           ]
         },
@@ -444,35 +353,17 @@
                             "value": {
                               "type": "string"
                             }
-                          },
-                          "required": [
-                            "type",
-                            "value"
-                          ]
+                          }
                         }
-                      },
-                      "required": [
-                        "path"
-                      ]
+                      }
                     }
                   ]
                 }
-              },
-              "required": [
-                "matches"
-              ]
+              }
             }
           ]
         }
-      },
-      "required": [
-        "enabled",
-        "additionalLabels",
-        "annotations",
-        "parentRefs",
-        "hostnames",
-        "rules"
-      ]
+      }
     },
     "linkerd": {
       "type": "object",
@@ -483,15 +374,9 @@
             "enabled": {
               "type": "boolean"
             }
-          },
-          "required": [
-            "enabled"
-          ]
+          }
         }
-      },
-      "required": [
-        "profile"
-      ]
+      }
     },
     "serviceMonitor": {
       "type": "object",
@@ -505,12 +390,7 @@
         "additionalLabels": {
           "type": "object"
         }
-      },
-      "required": [
-        "enabled",
-        "interval",
-        "additionalLabels"
-      ]
+      }
     },
     "resources": {
       "type": "object",
@@ -527,17 +407,9 @@
             "memory": {
               "type": "string"
             }
-          },
-          "required": [
-            "cpu",
-            "memory"
-          ]
+          }
         }
-      },
-      "required": [
-        "limits",
-        "requests"
-      ]
+      }
     },
     "nodeSelector": {
       "type": "object"
@@ -580,14 +452,7 @@
             "periodSeconds": {
               "type": "integer"
             }
-          },
-          "required": [
-            "initialDelaySeconds",
-            "timeoutSeconds",
-            "failureThreshold",
-            "successThreshold",
-            "periodSeconds"
-          ]
+          }
         },
         "liveness": {
           "type": "object",
@@ -607,14 +472,7 @@
             "periodSeconds": {
               "type": "integer"
             }
-          },
-          "required": [
-            "initialDelaySeconds",
-            "timeoutSeconds",
-            "failureThreshold",
-            "successThreshold",
-            "periodSeconds"
-          ]
+          }
         },
         "startup": {
           "type": "object",
@@ -637,57 +495,9 @@
             "periodSeconds": {
               "type": "integer"
             }
-          },
-          "required": [
-            "enable",
-            "initialDelaySeconds",
-            "timeoutSeconds",
-            "failureThreshold",
-            "successThreshold",
-            "periodSeconds"
-          ]
+          }
         }
-      },
-      "required": [
-        "readiness",
-        "liveness",
-        "startup"
-      ]
+      }
     }
-  },
-  "required": [
-    "replicaCount",
-    "logLevel",
-    "host",
-    "backend",
-    "backends",
-    "image",
-    "ui",
-    "faults",
-    "service",
-    "h2c",
-    "config",
-    "extraArgs",
-    "extraEnvs",
-    "tls",
-    "certificate",
-    "hpa",
-    "cache",
-    "redis",
-    "serviceAccount",
-    "securityContext",
-    "podSecurityContext",
-    "ingress",
-    "httpRoute",
-    "linkerd",
-    "serviceMonitor",
-    "resources",
-    "nodeSelector",
-    "tolerations",
-    "affinity",
-    "podAnnotations",
-    "topologySpreadConstraints",
-    "podDisruptionBudget",
-    "probes"
-  ]
+  }
 }
