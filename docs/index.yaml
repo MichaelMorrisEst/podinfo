@@ -12,6 +12,6 @@ entries:
     sources:
     - https://github.com/MichaelMorrisEst/podinfo
     urls:
-    - https://github.com/MichaelMorrisEst/podinfo/docs/podinfo-6.10.3.tgz
+    - https://MichaelMorrisEst.github.io/podinfo/docs/podinfo-6.10.3.tgz
     version: 6.10.3
 generated: "2025-12-04T13:50:46.098087987Z"
