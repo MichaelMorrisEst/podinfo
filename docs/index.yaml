@@ -3,7 +3,7 @@ entries:
   podinfo:
   - apiVersion: v1
     appVersion: 6.11.3
-    created: "2025-12-04T14:38:08.959644148Z"
+    created: "2025-12-04T14:52:27.17881992Z"
     description: Podinfo Helm chart for Kubernetes
     digest: b436f8381831f365ee3bba301d7c57ea54993bd36669807e37956079c57e94e2
     home: https://github.com/MichaelMorrisEst/podinfo
@@ -16,9 +16,9 @@ entries:
     version: 6.11.3
   - apiVersion: v1
     appVersion: 6.10.3
-    created: "2025-12-04T14:38:08.958574264Z"
+    created: "2025-12-04T14:52:27.177574237Z"
     description: Podinfo Helm chart for Kubernetes
-    digest: e1b42a2081f66fd682a0e2a6ec0d13a67d85bb7b063f4ebd0e49be23411ce31d
+    digest: f4a2deac03ea8c3f138d7ca72ef0c3be7522c6a8d16ffa90cb910fed3929c126
     home: https://github.com/MichaelMorrisEst/podinfo
     kubeVersion: '>=1.23.0-0'
     name: podinfo
@@ -27,4 +27,4 @@ entries:
     urls:
     - https://MichaelMorrisEst.github.io/podinfo/podinfo-6.10.3.tgz
     version: 6.10.3
-generated: "2025-12-04T14:38:08.956837872Z"
+generated: "2025-12-04T14:52:27.175299125Z"
