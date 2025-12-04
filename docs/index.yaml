@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  podinfo:
+  - apiVersion: v1
+    appVersion: 6.10.3
+    created: "2025-12-04T13:50:46.099212389Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: e1b42a2081f66fd682a0e2a6ec0d13a67d85bb7b063f4ebd0e49be23411ce31d
+    home: https://github.com/MichaelMorrisEst/podinfo
+    kubeVersion: '>=1.23.0-0'
+    name: podinfo
+    sources:
+    - https://github.com/MichaelMorrisEst/podinfo
+    urls:
+    - https://github.com/MichaelMorrisEst/podinfo/docs/podinfo-6.10.3.tgz
+    version: 6.10.3
+generated: "2025-12-04T13:50:46.098087987Z"
