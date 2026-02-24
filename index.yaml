@@ -1,9 +1,42 @@
 apiVersion: v1
 entries:
+  pod2info:
+  - apiVersion: v1
+    appVersion: 6.11.3
+    created: "2026-02-24T14:11:09.562719596Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 2b5ba1d7c2c58264cb99e4e46d6e6e8cc9805f95475f9d9754994d155e06a8d9
+    home: https://github.com/MichaelMorrisEst/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: pod2info
+    sources:
+    - https://github.com/MichaelMorrisEst/podinfo
+    urls:
+    - pod2info-6.11.3.tgz
+    version: 6.11.3
   podinfo:
   - apiVersion: v1
     appVersion: 6.11.3
-    created: "2026-02-24T14:02:19.121009652Z"
+    created: "2026-02-24T14:11:09.563470682Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 712b7661ecb2bc2025a9c06cb235c7943a6920c92d4d59bec24d1889ed34847e
+    home: https://github.com/MichaelMorrisEst/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/MichaelMorrisEst/podinfo
+    urls:
+    - podinfo-6.11.3.tgz
+    version: 6.11.3
+  - apiVersion: v1
+    appVersion: 6.11.3
+    created: "2026-02-24T14:11:09.565204426Z"
     description: Podinfo Helm chart for Kubernetes
     digest: b436f8381831f365ee3bba301d7c57ea54993bd36669807e37956079c57e94e2
     home: https://github.com/MichaelMorrisEst/podinfo
@@ -19,7 +52,7 @@ entries:
     version: 6.11.3
   - apiVersion: v1
     appVersion: 6.10.3
-    created: "2026-02-24T14:02:19.112035837Z"
+    created: "2026-02-24T14:11:09.56432548Z"
     description: Podinfo Helm chart for Kubernetes
     digest: f4a2deac03ea8c3f138d7ca72ef0c3be7522c6a8d16ffa90cb910fed3929c126
     home: https://github.com/MichaelMorrisEst/podinfo
@@ -33,4 +66,4 @@ entries:
     urls:
     - docs/podinfo-6.10.3.tgz
     version: 6.10.3
-generated: "2026-02-24T14:02:19.111165233Z"
+generated: "2026-02-24T14:11:09.561806474Z"
