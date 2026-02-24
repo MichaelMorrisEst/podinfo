@@ -1,30 +1,53 @@
 apiVersion: v1
 entries:
+  pod2info:
+  - apiVersion: v1
+    appVersion: 6.11.3
+    created: "2026-02-24T14:28:37.007997705Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 0bbaeb8bb00ed24effc91a040e0cdbcab3603eac988f9789ee11d72811e132fe
+    home: https://github.com/MichaelMorrisEst/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: pod2info
+    sources:
+    - https://github.com/MichaelMorrisEst/podinfo
+    urls:
+    - pod2info-6.11.3.tgz
+    version: 6.11.3
   podinfo:
   - apiVersion: v1
     appVersion: 6.11.3
-    created: "2025-12-04T14:52:27.17881992Z"
+    created: "2026-02-24T14:28:37.009448297Z"
     description: Podinfo Helm chart for Kubernetes
-    digest: b436f8381831f365ee3bba301d7c57ea54993bd36669807e37956079c57e94e2
+    digest: da359b283ec0322926af0c49dd5b96df88d48452458b42150ed91853a7c784c1
     home: https://github.com/MichaelMorrisEst/podinfo
     kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
     name: podinfo
     sources:
     - https://github.com/MichaelMorrisEst/podinfo
     urls:
-    - https://MichaelMorrisEst.github.io/podinfo/podinfo-6.11.3.tgz
+    - podinfo-6.11.3.tgz
     version: 6.11.3
   - apiVersion: v1
     appVersion: 6.10.3
-    created: "2025-12-04T14:52:27.177574237Z"
+    created: "2026-02-24T14:28:37.008724631Z"
     description: Podinfo Helm chart for Kubernetes
     digest: f4a2deac03ea8c3f138d7ca72ef0c3be7522c6a8d16ffa90cb910fed3929c126
     home: https://github.com/MichaelMorrisEst/podinfo
     kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
     name: podinfo
     sources:
     - https://github.com/MichaelMorrisEst/podinfo
     urls:
-    - https://MichaelMorrisEst.github.io/podinfo/podinfo-6.10.3.tgz
+    - podinfo-6.10.3.tgz
     version: 6.10.3
-generated: "2025-12-04T14:52:27.175299125Z"
+generated: "2026-02-24T14:28:37.007116544Z"
